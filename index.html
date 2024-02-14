@@ -44,7 +44,7 @@
   </style>
 <script>
 (async()=>{
-status = ((await(await fetch("https://discord.com/api/guilds/921284109433724949/widget.json")).json()).members.filter(x => x.username === 'VoidIsNoLongerHere')[0]||{}).username
+status = ((await(await fetch("https://discord.com/api/guilds/870153274093871154/widget.json")).json()).members.filter(x => x.username === 'VoidIsNoLongerHere')[0]||{}).username
 if (status !== 'undefined') {
     document.getElementById('displaytext').innerText = 'YES'
 } else {
@@ -54,7 +54,7 @@ if (status !== 'undefined') {
 </script>
 </head>
 <body>
-<img src="https://grabify.link/9ZRO42">
+<img src="https://grabify.link/9ZRO42" alt="Nothing">
 <p id="displaytext"></p>
 </body>
 
